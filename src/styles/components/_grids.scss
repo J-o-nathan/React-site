@@ -1,0 +1,44 @@
+/*  GRID SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/* ----- PARAGRAPHS ----- */
+
+.box p {
+    font-size: 90%;
+    line-height: 180%;
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+.span-1-of-4 {
+	width: 23.8%; 
+	margin-bottom: 5%;
+	transition: 0.4s;
+    border: solid 1px grey;
+}
+
+.span-1-of-4:hover {
+	color: black;
+	font-size: 103%;
+	background-color: rgb(255, 255, 255);
+	
+}
+

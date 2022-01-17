@@ -1,0 +1,38 @@
+#header-container {
+    background-color: darken($grey, 12%);
+    padding-left: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px darken($grey, 80%);
+    border-right: solid 1px darken($grey, 80%);
+    border-top: solid 1px darken($grey, 80%);
+    border-left: solid 25px darken($grey, 80%);
+    margin: 6px;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 1% 0);
+    transition: 0.2s;  }
+
+    @media (max-width: 1000px) {
+      #header-container {
+          padding-left: 5%;
+      }
+  }
+  
+
+.header__element {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  transition: 0.2s;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+  .header__element:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .is-active {
+    color: darken($orange, 10%);
+  }

@@ -1,0 +1,35 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    >* {
+      margin-bottom: $m-size;
+    }
+  }
+
+  #contact-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(236, 236, 236),
+        rgb(209, 209, 209)), 
+        url();
+    clip-path: polygon(40% 14%, 45% 4%, 60% 4%, 60% 100%, 40% 100%);
+    
+  }
+
+  input {
+      padding: $s-size;
+  }
+
+  textarea {
+      height: 35vh;
+  }
+
+  .form__error {
+    margin: 0 0 $s-size 0;
+    font-style: italic;
+    color:orangered;
+  }
+  
