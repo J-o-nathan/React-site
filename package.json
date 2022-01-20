@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "start": "node/server/server.js",
+    "start": "live-server public",
     "heroku-postbuild": "npm run build:prod",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
